@@ -1,0 +1,32 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.my.list"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "MyList",
+        "packageName": "com.my.list",
+        "packageFolder": "com/my/list",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "no",
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "gradle",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "MGRhNWY3ZDFjYjVhYjZhOWE0YjZjNDk5NzlkMWIwYWY4MWQ0ZTU4OWU1NjRiNzYxZmY3ODQ0YTM5NzQyZjFlNTQ0NTNkZGRlNDY4ODQ0YjM1NzhiYTFiZDhjYmVhN2EzY2M5YmJjZTBkN2EzMTM2YThhN2EzN2FhMjMxYzJiOGY=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
