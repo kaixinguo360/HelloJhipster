@@ -3,7 +3,8 @@ import org.gradle.internal.os.OperatingSystem
 buildscript {
     repositories {
         mavenLocal()
-        mavenCentral()
+        //mavenCentral()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/' }
         maven { url "http://repo.spring.io/plugins-release" }
         maven { url "https://plugins.gradle.org/m2/" }
     }
@@ -159,7 +160,8 @@ configurations {
 
 repositories {
     mavenLocal()
-    mavenCentral()
+    //mavenCentral()
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/' }
     jcenter()
     //jhipster-needle-gradle-repositories - JHipster will add additional repositories
 }
