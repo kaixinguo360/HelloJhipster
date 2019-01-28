@@ -1,0 +1,16 @@
+entity Tag {
+	title String required
+	info String
+}
+
+entity Post {
+	title String required
+    content String required
+}
+
+relationship ManyToMany {
+	Post{tags} to Tag
+}
+
+paginate all with infinite-scroll
+service all with serviceImpl
