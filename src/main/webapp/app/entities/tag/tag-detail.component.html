@@ -1,15 +1,10 @@
 <div class="row justify-content-center">
     <div class="col-8">
         <div *ngIf="tag">
-            <h2><span>Tag</span> {{tag.id}}</h2>
+            <h2><span>Tag:</span> {{tag.title}}</h2>
             <hr>
             <jhi-alert-error></jhi-alert-error>
             <dl class="row-md jh-entity-details">
-                <dt><span>Title</span></dt>
-                <dd>
-                    <span>{{tag.title}}</span>
-                </dd>
-                <dt><span>Info</span></dt>
                 <dd>
                     <span>{{tag.info}}</span>
                 </dd>

@@ -35,7 +35,7 @@
                 <div class="form-group">
                     <label for="field_tags">Tags</label>
                     <select class="form-control" id="field_tags" multiple name="tags" [(ngModel)]="post.tags">
-                        <option [ngValue]="getSelected(post.tags, tagOption)" *ngFor="let tagOption of tags; trackBy: trackTagById">{{tagOption.id}}</option>
+                        <option [ngValue]="getSelected(post.tags, tagOption)" *ngFor="let tagOption of tags; trackBy: trackTagById">{{tagOption.title}}</option>
                     </select>
                 </div>
             </div>
